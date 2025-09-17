@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66260729-7a04-4f80-bb10-a80c03cf21a7" name="Изменения" comment="Add: interface &quot;Calculator&quot;, class &quot;BasicCalculator&quot;.&#10;Implement the core logic of working in Main.java file.">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Core/BasicCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Core/UserInputManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/InputManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/BasicCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/BasicCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,23 +19,25 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "agluzhin"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;agluzhin&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/agluzhin/calculator-hw.git",
-    "accountId": "dfc747b3-5c11-4aaa-8d2c-297306d5d242"
+    "accountId": "0f629564-917b-453e-9eca-79a42026a9b7"
   }
 }]]></component>
   <component name="GradleModuleStateConfig" initialized="true" />
@@ -46,22 +48,25 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="32kKX8rZo7VX0H674qpQFooFkOK" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/aleksandr/Desktop/my_projects/calculator-hw",
-    "onboarding.tips.debug.path": "C:/Users/exfue/Desktop/my_projects/calculator-hw/src/Main.java",
-    "Приложение.Main.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/aleksandr/Desktop/my_projects/calculator-hw&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/exfue/Desktop/my_projects/calculator-hw/src/Main.java&quot;,
+    &quot;Приложение.Main.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="Core" />
@@ -76,6 +81,29 @@
       <updated>1757959167741</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add: interface &quot;Calculator&quot;, class &quot;BasicCalculator&quot;.&#10;Implement the core logic of working in Main.java file." />
