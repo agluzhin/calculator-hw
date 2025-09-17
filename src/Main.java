@@ -13,20 +13,21 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.println("\nСписок команд:\np - (от 'proceed') продолжить вычисления\nc - сброс/запуск калькулятора\ns - выключение калькулятора\n");
+            System.out.println("Список команд:\np - (от 'proceed') продолжить вычисления\nc - сброс/запуск калькулятора\ns - выключение калькулятора\n");
             String userInput = scanner.next();
 
             if (userInput.charAt(0) == 's') {
-                System.out.println("=== Выключение калькулятора ===");
+                System.out.println("\n=== Выключение калькулятора ===\n");
                 break;
             } else if (userInput.charAt(0) == 'c') {
+                System.out.println("\n=== Запуск калькулятора ===\n");
                 calculationResult = getFirstCalculation(userInputManager, scanner);
-                System.out.println(calculationResult);
+                System.out.println("\n" + calculationResult + "\n");
             } else if (userInput.charAt(0) == 'p' && calculationResult != 0.0d) {
                 calculationResult = getAdditionalCalculation(userInputManager, scanner, calculationResult);
-                System.out.println(calculationResult);
+                System.out.println("\n" + calculationResult + "\n");
             } else {
-                System.out.println("Ошибка команды: некорректный ввод команды (должна быть одной из вышеперечисленных).");
+                System.out.println("Ошибка: некорректный ввод команды. Команда должна быть одной из вышеперечисленных.");
             }
 
         }

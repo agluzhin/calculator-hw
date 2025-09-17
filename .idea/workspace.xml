@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66260729-7a04-4f80-bb10-a80c03cf21a7" name="Изменения" comment="Add: interface &quot;Calculator&quot;, class &quot;BasicCalculator&quot;.&#10;Implement the core logic of working in Main.java file.">
-      <change afterPath="$PROJECT_DIR$/src/Core/UserInputManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interfaces/InputManager.java" afterDir="false" />
+    <list default="true" id="66260729-7a04-4f80-bb10-a80c03cf21a7" name="Изменения" comment="Add: UserInputManager to control user's input, methods getFirstCalculation and getAdditionalCalculation to split up the calculation's beginning and continuing.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Core/BasicCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/BasicCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Core/UserInputManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/UserInputManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/InputManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/InputManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,12 +33,12 @@
     &quot;assignee&quot;: &quot;agluzhin&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/agluzhin/calculator-hw.git",
-    "accountId": "0f629564-917b-453e-9eca-79a42026a9b7"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/agluzhin/calculator-hw.git&quot;,
+    &quot;accountId&quot;: &quot;0f629564-917b-453e-9eca-79a42026a9b7&quot;
   }
-}]]></component>
+}</component>
   <component name="GradleModuleStateConfig" initialized="true" />
   <component name="OpenIdeProjectLocalState">
     <option name="firstOpen" value="false" />
@@ -80,6 +79,15 @@
       <option name="presentableId" value="Default" />
       <updated>1757959167741</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add: UserInputManager to control user's input, methods getFirstCalculation and getAdditionalCalculation to split up the calculation's beginning and continuing.">
+      <option name="closed" value="true" />
+      <created>1758102850299</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758102850299</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add: interface &quot;Calculator&quot;, class &quot;BasicCalculator&quot;.&#10;Implement the core logic of working in Main.java file." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add: interface &quot;Calculator&quot;, class &quot;BasicCalculator&quot;.&#10;Implement the core logic of working in Main.java file." />
+    <MESSAGE value="Add: UserInputManager to control user's input, methods getFirstCalculation and getAdditionalCalculation to split up the calculation's beginning and continuing." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add: UserInputManager to control user's input, methods getFirstCalculation and getAdditionalCalculation to split up the calculation's beginning and continuing." />
   </component>
 </project>
