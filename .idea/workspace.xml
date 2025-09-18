@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66260729-7a04-4f80-bb10-a80c03cf21a7" name="Изменения" comment="Add: UserInputManager to control user's input, methods getFirstCalculation and getAdditionalCalculation to split up the calculation's beginning and continuing.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Core/UserInputManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/UserInputManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interfaces/InputManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/InputManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
